@@ -62,3 +62,7 @@ end
     # .round(2) rounds the number to the hundredth of a decimal
     return (4.0/3 * Math::PI * radius**3).round(2)
   end
+
+  def convert_f_to_c(degree_f)
+    return (degree_f - 32) * 5/9
+  end
