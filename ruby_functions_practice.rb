@@ -33,6 +33,8 @@ end
 def number_to_full_month_name(month_nr)
   if month_nr == 1
     return "January"
+  elsif month_nr == 3
+    return "March"
   else
     return nil
   end
