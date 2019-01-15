@@ -57,3 +57,8 @@ end
   def volume_of_cube(side)
     return side ** 3
   end
+
+  def volume_of_sphere(radius)
+    # .round(2) rounds the number to the hundredth of a decimal
+    return (4.0/3 * Math::PI * radius**3).round(2)
+  end
